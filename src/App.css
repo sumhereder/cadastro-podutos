@@ -1,16 +1,27 @@
 * {
 	margin:0px;
 	padding:0px;
-	background-color:lightgray;
+	
 }
 .conteinerPrincipal {
-	min-height:600px;
+	min-height:735px;
 	border:1px solid black;
 	background-color:white;
 }
-.comteinerSecundario {
-	min-height:400px;
-	background-color:snow;
+.conteinerBarraMenus {
+	display:flex;
+	flex-direction:inline;
+	justify-content:space-between;
+}
+.conteinerBody {
+	min-height:605px;
+	padding:5px;
+	border:1px solid green;
+	background-color:lightgreen;
+}
+.conteinerHeader {
+	min-height:100px;
+	background-color:lightgrey;
 }
 .titulos {
 	font-size:18px;
@@ -28,17 +39,24 @@
 	background-color:lightgray;
 
 }
-.footer{
-	font-size:12px;
+.conteinerFooter {
+	font-size:14px;
 	margin-top:auto;
 	margin-bottom:0px;
+	text-align:center;
+	align-items:center;
+	justify-content:space-between;
+	width:100%;
+	height:30px;
 	background-color:lightgray;
 
 }
-.botoes {
+.button {
 	background-color:black;
 	color:white;
 	border:gray;
-	border-radius:10px;
+	margin:3px;
+	padding:5px;
+	border-radius:5px;
 	flex:1;
 }
