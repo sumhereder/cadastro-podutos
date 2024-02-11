@@ -14,10 +14,10 @@ function Body() {
     <div className="conteinerBody">
       {produtos.map(produto => (
         <div key={produto.id} className="produto">
-          <h4>{produto.Nome}</h4>
-          <img src={produto.Imagem} alt={produto.nome} />
-          <p>Estoque: {produto.Estoque}</p>
-          <p>Entrada: {produto.Entrada}</p>
+          <div className="nomeProduto">{produto.Nome}</div>
+          <img className="imagemProduto" src={produto.Imagem} alt={produto.nome} />
+          <div className="estoqueProduto">Estoque: {produto.Estoque}</div>
+          <div className="entradaProduto">Entrada: {produto.Entrada}</div>
         </div>
       ))}
     </div>

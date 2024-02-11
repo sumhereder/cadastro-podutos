@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="conteinerPrincipal">
       <Header />
+	  <div className="box">
 	<BarraMenus />
+	  </div>
 	<Body />
       <Footer />
     </div>

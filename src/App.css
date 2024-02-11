@@ -7,7 +7,9 @@
 	min-height:735px;
 	border:1px solid black;
 	background-color:white;
+	
 }
+
 .conteinerBarraMenus {
 	display:flex;
 	flex-direction:inline;
@@ -18,6 +20,7 @@
 	padding:5px;
 	border:1px solid green;
 	background-color:lightgreen;
+	
 }
 .conteinerHeader {
 	min-height:100px;
